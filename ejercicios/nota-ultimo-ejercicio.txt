@@ -1,0 +1,23 @@
+
+a) El año debe ser divisible por 4:
+Esta condición establece que para que un año sea considerado bisiesto, debe ser divisible por 4.
+ Esto significa que el año debe ser divisible exactamente por 4, sin dejar ningún resto en la división por 4.
+
+La razón detrás de esta condición es que, si un año es divisible por 4, entonces tiene un día extra (29 de febrero) en el mes de febrero, 
+lo que hace que ese año tenga 366 días en lugar de 365. Esto ayuda a mantener el calendario sincronizado con las estaciones del año, ya 
+que el año solar dura aproximadamente 365.2425 días.
+
+b) El año no debe ser divisible por 100, excepto si es divisible por 400:
+Esta es una condición adicional que se agrega para corregir una imprecisión en la regla anterior. Si simplemente se considerara que 
+todos los años divisibles por 4 son bisiestos, se agregaría un día extra cada cuatro años, lo que haría que el calendario se adelantara 
+aproximadamente 0.25 días cada año. A largo plazo, esto causaría una desviación significativa entre el calendario y las estaciones del año.
+
+Para corregir esta imprecisión, se agrega la segunda condición. Si un año es divisible por 100, se verifica si también es divisible por 400. 
+Si es divisible por 400, se considera bisiesto, a pesar de ser divisible por 100. Si no es divisible por 400, entonces no se considera bisiesto.
+
+Esta condición asegura que ciertos años (los múltiplos de 100) que normalmente serían bisiestos (según la condición anterior) no lo sean, a menos 
+que también sean múltiplos de 400. Esto ajusta el calendario para que tenga una precisión muy cercana a los años solares.
+
+En resumen, estas dos condiciones aseguran que el calendario gregoriano mantenga un equilibrio entre la regularidad de los años bisiestos y 
+la precisión en relación con el año solar. Los años bisiestos ocurren cada cuatro años, pero se hacen excepciones para los años divisibles por 100, 
+a menos que sean divisibles por 400. Esto garantiza que el calendario se mantenga bastante cercano a los ciclos astronómicos y las estaciones del año.
